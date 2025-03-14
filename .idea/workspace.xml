@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31439120-d496-4568-867d-96dae15f9fa3" name="Changes" comment="Booking management completed">
+    <list default="true" id="31439120-d496-4568-867d-96dae15f9fa3" name="Changes" comment="Driver management completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,24 +29,24 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="feature/user-management" />
+                    <option name="lastUsedInstant" value="1741959559" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="development" />
+                    <option name="lastUsedInstant" value="1741959526" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/driver-management" />
+                    <option name="lastUsedInstant" value="1741959387" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feature/vehicle-management" />
                     <option name="lastUsedInstant" value="1741958997" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="development" />
-                    <option name="lastUsedInstant" value="1741958336" />
-                  </RecentBranch>
-                  <RecentBranch>
                     <option name="branchName" value="feature/booking-management" />
                     <option name="lastUsedInstant" value="1741958141" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feature/auth-management" />
-                    <option name="lastUsedInstant" value="1741957796" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feature/dashboard-management" />
-                    <option name="lastUsedInstant" value="1741956390" />
                   </RecentBranch>
                 </list>
               </option>
@@ -68,25 +68,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ICBT_TOPUP_DEGREE/ICBT_ASSIGNMENTS/Advanced Programming_CIS6003/mega-city-cab-admin-web-application/services&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\ICBT_TOPUP_DEGREE\\ICBT_ASSIGNMENTS\\Advanced Programming_CIS6003\\mega-city-cab-admin-web-application\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/ICBT_TOPUP_DEGREE/ICBT_ASSIGNMENTS/Advanced Programming_CIS6003/mega-city-cab-admin-web-application/app/(home)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\ICBT_TOPUP_DEGREE\\ICBT_ASSIGNMENTS\\Advanced Programming_CIS6003\\mega-city-cab-admin-web-application\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ICBT_TOPUP_DEGREE\ICBT_ASSIGNMENTS\Advanced Programming_CIS6003\mega-city-cab-admin-web-application\app\(home)" />
       <recent name="D:\ICBT_TOPUP_DEGREE\ICBT_ASSIGNMENTS\Advanced Programming_CIS6003\mega-city-cab-admin-web-application\services" />
       <recent name="D:\ICBT_TOPUP_DEGREE\ICBT_ASSIGNMENTS\Advanced Programming_CIS6003\mega-city-cab-admin-web-application\features" />
-      <recent name="D:\ICBT_TOPUP_DEGREE\ICBT_ASSIGNMENTS\Advanced Programming_CIS6003\mega-city-cab-admin-web-application\app\(home)" />
       <recent name="D:\ICBT_TOPUP_DEGREE\ICBT_ASSIGNMENTS\Advanced Programming_CIS6003\mega-city-cab-admin-web-application" />
       <recent name="D:\ICBT_TOPUP_DEGREE\ICBT_ASSIGNMENTS\Advanced Programming_CIS6003\mega-city-cab-admin-web-application\app" />
     </key>
@@ -144,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741958258130</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Driver management completed">
+      <option name="closed" value="true" />
+      <created>1741959480288</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741959480288</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
